@@ -5,3 +5,8 @@ for nombre in liste_nombres:
     if nombre > maximum:
         maximum = nombre
 print("Le maximum est :", maximum)
+minimum = liste_nombres[0]
+for nombre in liste_nombres:
+    if nombre < minimum:
+        minimum = nombre
+print("Le minimum est :", minimum)
