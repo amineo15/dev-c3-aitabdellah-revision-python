@@ -10,3 +10,8 @@ for nombre in liste_nombres:
     if nombre < minimum:
         minimum = nombre
 print("Le minimum est :", minimum)
+somme = 0
+for nombre in liste_nombres:
+    somme += nombre
+moyenne = somme / len(liste_nombres)
+print("La moyenne est :", moyenne)
