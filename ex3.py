@@ -8,7 +8,7 @@ def calculatrice():
     elif operation == "-":
         resultat = n1 - n2
         print(resultat)
-    elif operation == "*" or operation == "*":
+    elif operation == "*" or operation == "x":
         resultat = n1 * n2
         print(resultat)
     elif operation == "/":
