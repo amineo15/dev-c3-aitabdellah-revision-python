@@ -11,4 +11,9 @@ def calculatrice():
     elif operation == "*" or operation == "*":
         resultat = n1 * n2
         print(resultat)
-calculatrice()
+    elif operation == "/":
+        if n2 == 0:
+            print("Imopossible de diviser par 0")
+        else : 
+            resultat = n1 / n2
+            print(resultat)
